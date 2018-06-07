@@ -6,22 +6,60 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-04-27T14:46:25.990Z</updated>
+  <updated>2018-06-07T16:15:57.815Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
-    <name>HuishuaiLEE</name>
+    <name>HuishuaiLee</name>
     
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>明解C语言 第0章 前言</title>
+    <link href="http://yoursite.com/My-new-post/"/>
+    <id>http://yoursite.com/My-new-post/</id>
+    <published>2018-06-07T16:14:50.000Z</published>
+    <updated>2018-06-07T16:15:57.815Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;读书博客的第一篇前言&quot;&gt;&lt;a href=&quot;#读书博客的第一篇前言&quot; class=&quot;headerlink&quot; title=&quot;读书博客的第一篇前言&quot;&gt;&lt;/a&gt;读书博客的第一篇前言&lt;/h2&gt;&lt;h3 id=&quot;1-作为程序员-我很开心&quot;&gt;&lt;a href=&quot;#1-作为程序员-我
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>明解C语言 第0章 前言</title>
+    <link href="http://yoursite.com/180607/"/>
+    <id>http://yoursite.com/180607/</id>
+    <published>2018-06-07T16:12:11.863Z</published>
+    <updated>2018-06-07T16:09:20.207Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;读书博客的第一篇前言&quot;&gt;&lt;a href=&quot;#读书博客的第一篇前言&quot; class=&quot;headerlink&quot; title=&quot;读书博客的第一篇前言&quot;&gt;&lt;/a&gt;读书博客的第一篇前言&lt;/h2&gt;&lt;h3 id=&quot;1-作为程序员-我很开心&quot;&gt;&lt;a href=&quot;#1-作为程序员-我
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
     <title>Hello World</title>
     <link href="http://yoursite.com/hello-world/"/>
     <id>http://yoursite.com/hello-world/</id>
     <published>2018-04-27T14:46:25.990Z</published>
-    <updated>2018-04-27T14:46:25.990Z</updated>
+    <updated>2018-06-07T15:29:20.211Z</updated>
     
     <summary type="html">
     
