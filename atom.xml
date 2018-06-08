@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-06-08T17:21:51.237Z</updated>
+  <updated>2018-06-08T17:28:36.174Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,13 +21,17 @@
     <link href="http://yoursite.com/Atom_setting/"/>
     <id>http://yoursite.com/Atom_setting/</id>
     <published>2018-06-08T17:15:55.434Z</published>
-    <updated>2018-06-08T17:21:51.237Z</updated>
+    <updated>2018-06-08T17:28:36.174Z</updated>
     
     <summary type="html">
     
     </summary>
     
-      <category term="计算机/编程" scheme="http://yoursite.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA-%E7%BC%96%E7%A8%8B/"/>
+      <category term="计算机" scheme="http://yoursite.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
+    
+      <category term="编程" scheme="http://yoursite.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E7%BC%96%E7%A8%8B/"/>
+    
+      <category term="文本编辑器" scheme="http://yoursite.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E7%BC%96%E7%A8%8B/%E6%96%87%E6%9C%AC%E7%BC%96%E8%BE%91%E5%99%A8/"/>
     
     
       <category term="Atom" scheme="http://yoursite.com/tags/Atom/"/>
