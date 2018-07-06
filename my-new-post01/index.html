@@ -78,7 +78,7 @@
     <script defer type="text/javascript" src="/js/index.js"></script>
     
     <script defer type="text/javascript" src="/js/custom.js"></script>
-    <title>my new post01 | Lee's Harbor - Tomorrow, I'm coming</title>
+    <title>明解C语言 第一章 指针 | Lee's Harbor - Tomorrow, I'm coming</title>
   </head>
   <body itemscope itemtype="http://schema.org/WebPage" lang="default"  data-spy="scroll" data-target=".list-group">
     
@@ -98,15 +98,15 @@
   <a id="nav-toggle" class="nav-toggle"><i class="fas fa-bars"></i></a>
   <ul id="menu">
     
-    <li><a href="/">首页</a></li>
+    <li><a href="/">Home</a></li>
     
-    <li><a href="/archives/">归档</a></li>
+    <li><a href="/archives/">Archives</a></li>
     
-    <li><a href="/categories/">分类</a></li>
+    <li><a href="/categories/">Categories</a></li>
     
-    <li><a href="/tags/">标签</a></li>
+    <li><a href="/tags/">Tags</a></li>
     
-    <li><a href="/about/">关于</a></li>
+    <li><a href="/about/">About</a></li>
     
   </ul>
 </nav>
@@ -137,7 +137,7 @@
     </div>
     <header class="post-header">
       <h1 class="post-title" itemprop="name headline">
-       <span class="">my new post01</span>
+       <span class="">明解C语言 第一章 指针</span>
       </h1>
       <div class="post-meta">
         
@@ -159,7 +159,7 @@
       </div>
     </header>
     <main class="post-body" itemprop="articleBody">
-      <h2 id="指针"><a href="#指针" class="headerlink" title="指针"></a>指针</h2><h3 id="第一节-什么是指针"><a href="#第一节-什么是指针" class="headerlink" title="第一节 什么是指针"></a>第一节 什么是指针</h3><p>关于指针一词，在K&amp;R C中，有下面这样的说明。</p>
+      <h2 id="指针"><a href="#指针" class="headerlink" title="指针"></a>指针</h2><h3 id="第1节-什么是指针"><a href="#第1节-什么是指针" class="headerlink" title="第1节 什么是指针"></a>第1节 什么是指针</h3><p>关于指针一词，在K&amp;R C中，有下面这样的说明。</p>
 <ul>
 <li>指针是一种保存变量地址的变量，在C中频繁地使用。</li>
 </ul>
@@ -174,34 +174,9 @@
 <pre><code>int *p = &amp;xiaoming
 </code></pre><p>int *是“type”，p是“pointer variable”， xiaoming该变量的地址称为“pointer type value”。</p>
 <hr>
-<h3 id="第二节-地址与“-amp-”"><a href="#第二节-地址与“-amp-”" class="headerlink" title="第二节 地址与“&amp;”"></a>第二节 地址与“&amp;”</h3><p>几乎所有的处理程序中，所谓的“pointer type value”，实际是指内存的地址（Memory address）<br>变量的内容是保存在内存的某个地方的，“某个地方”的说法总是会让人产生困惑。因此，就像送快递的时候使用“门牌号”确定“地址”一样，在内存中，我们也给变量分配“门牌号”。在C的内存世界中，“门牌号”被称为地址。</p>
-<pre><code>#include &lt;stdio.h&gt; 
-
-int main()
-{
-    int Rose = 23;
-    int Jack = 25;
-    int *Rose_P;
-
-    /*输出Rose，Jack和Rose_P的住址在哪里*/
-    printf(&quot;&amp;Rose..%p\n&quot;,&amp;Rose);
-    printf(&quot;&amp;Jack..%p\n&quot;,&amp;Jack);
-    printf(&quot;&amp;Rose_P..%p\n&quot;,&amp;Rose_P);
-
-    /*将Rose家的住址赋予Rose_P*/
-    Rose_P = &amp;Rose;
-    printf(&quot;Rose_P..%p\n&quot;,Rose_P);
-
-    /*通过Rose_P输出Rose的值*/
-    printf(&quot;*Rose_P..%d\n&quot;,*Rose_P);    
-    /*注意,Rose的值是int type，所以用“%d” */
-    /*十年过去了，Rose多大了呢，户口的年龄加10了，她的真正年龄呢*/
-    *Rose_P += 10;
-    printf(&quot;Rose..%d\n&quot;, Rose);
-
-    return 0;
-}
-</code></pre><p><img src="https://upload-images.jianshu.io/upload_images/12973678-9a48d897dca0557c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="QQ截图20180704225429.png"></p>
+<h3 id="第2节-地址与“-amp-”"><a href="#第2节-地址与“-amp-”" class="headerlink" title="第2节 地址与“&amp;”"></a>第2节 地址与“&amp;”</h3><p>几乎所有的处理程序中，所谓的“pointer type value”，实际是指内存的地址（Memory address）<br>变量的内容是保存在内存的某个地方的，“某个地方”的说法总是会让人产生困惑。因此，就像送快递的时候使用“门牌号”确定“地址”一样，在内存中，我们也给变量分配“门牌号”。在C的内存世界中，“门牌号”被称为地址。</p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt; </span></span></span><br><span class="line">   </span><br><span class="line">   <span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function">   </span>&#123;</span><br><span class="line">   	<span class="keyword">int</span> Rose = <span class="number">23</span>;</span><br><span class="line">   	<span class="keyword">int</span> Jack = <span class="number">25</span>;</span><br><span class="line">   	<span class="keyword">int</span> *Rose_P;</span><br><span class="line">   	</span><br><span class="line">   	<span class="comment">/*输出Rose，Jack和Rose_P的住址在哪里*/</span></span><br><span class="line">   	<span class="built_in">printf</span>(<span class="string">"&amp;Rose..%p\n"</span>,&amp;Rose);</span><br><span class="line">   	<span class="built_in">printf</span>(<span class="string">"&amp;Jack..%p\n"</span>,&amp;Jack);</span><br><span class="line">   	<span class="built_in">printf</span>(<span class="string">"&amp;Rose_P..%p\n"</span>,&amp;Rose_P);</span><br><span class="line">   </span><br><span class="line">   	<span class="comment">/*将Rose家的住址赋予Rose_P*/</span></span><br><span class="line">   	Rose_P = &amp;Rose;</span><br><span class="line">   	<span class="built_in">printf</span>(<span class="string">"Rose_P..%p\n"</span>,Rose_P);</span><br><span class="line">   </span><br><span class="line">   	<span class="comment">/*通过Rose_P输出Rose的值*/</span></span><br><span class="line">   	<span class="built_in">printf</span>(<span class="string">"*Rose_P..%d\n"</span>,*Rose_P);	</span><br><span class="line">   	<span class="comment">/*注意,Rose的值是int type，所以用“%d” */</span></span><br><span class="line">   	<span class="comment">/*十年过去了，Rose多大了呢，户口的年龄加10了，她的真正年龄呢*/</span></span><br><span class="line">   	*Rose_P += <span class="number">10</span>;</span><br><span class="line">   	<span class="built_in">printf</span>(<span class="string">"Rose..%d\n"</span>, Rose);</span><br><span class="line">   </span><br><span class="line">   	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">   &#125;</span><br></pre></td></tr></table></figure>
+<p><img src="https://upload-images.jianshu.io/upload_images/12973678-9a48d897dca0557c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="QQ截图20180704225429.png"></p>
 
     </main>
     <footer class="post-footer">
@@ -225,18 +200,18 @@ int main()
   
 <div class="reward" id="reward">
   <p>坚持原创技术分享，您的鼓励将是我继续前进的动力！</p>
-  <button id="reward-button" class="button" disable="enable">打赏</button>
+  <button id="reward-button" class="button" disable="enable">Reward</button>
   <div id="qr" class="qr" style="display: none;">
     
     <div id="wechat">
-      <img id="wechat_qr" src="/images/WeChatPay.png" alt="微信支付"/>
-      <span>微信支付</span>
+      <img id="wechat_qr" src="/images/WeChatPay.png" alt="WechatPay"/>
+      <span>WechatPay</span>
     </div>
     
     
     <div id="alipay">
-      <img id="alipay_qr" src="/images/AliPay.png" alt="支付宝"/>
-      <span>支付宝</span>
+      <img id="alipay_qr" src="/images/AliPay.png" alt="AliPay"/>
+      <span>AliPay</span>
     </div>
     
     
@@ -295,7 +270,7 @@ int main()
   
   <div class="search">
     <div class="form-group">
-      <i class="fas fa-search"></i> <input type="text" id="search-input" name="q" results="0" placeholder="搜索" class="form-control"/>
+      <i class="fas fa-search"></i> <input type="text" id="search-input" name="q" results="0" placeholder="Search" class="form-control"/>
     </div>
   </div>
   <div class="search-result-box" id="search-result"></div>
@@ -310,7 +285,7 @@ int main()
   <div class="site-count">
     
     <div class="archives-count">
-      <p>归档</p>
+      <p>Archives</p>
       <p><a href="/archives/">5</a></p>
     </div>
     
@@ -319,7 +294,7 @@ int main()
     <span class="site-count-divider"> | </span>
     
     <div class="categories-count">
-      <p>分类</p>
+      <p>Categories</p>
       <p><a href="/categories/">4</a></p>
     </div>
     
@@ -328,7 +303,7 @@ int main()
     <span class="site-count-divider"> | </span>
     
     <div class="tags-count">
-      <p>标签</p>
+      <p>Tags</p>
       <p><a href="/tags/">4</a></p>
     </div>
     
@@ -350,8 +325,8 @@ int main()
 
 <hr>
 <div class="post-toc sidebar-item" id="toc-div">
-  <p><i class="fas fa-list-ol"></i> 文章目录</p>
-  <div class="post-toc-content"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#指针"><span class="toc-text">指针</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#第一节-什么是指针"><span class="toc-text">第一节 什么是指针</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#第二节-地址与“-amp-”"><span class="toc-text">第二节 地址与“&amp;”</span></a></li></ol></li></ol></div>
+  <p><i class="fas fa-list-ol"></i> Table of Contents</p>
+  <div class="post-toc-content"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#指针"><span class="toc-text">指针</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#第1节-什么是指针"><span class="toc-text">第1节 什么是指针</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#第2节-地址与“-amp-”"><span class="toc-text">第2节 地址与“&amp;”</span></a></li></ol></li></ol></div>
 </div>
 
 
@@ -361,7 +336,7 @@ int main()
     
 <hr>
 <div class="social-link sidebar-item">
-  <p><i class="far fa-address-card"></i> 社交链接</p>
+  <p><i class="far fa-address-card"></i> Social Links</p>
   <ul>
     
     <li><i class="fab fa-github"></i> <a href="https://github.com/" target="_blank">GitHub</a></li>
@@ -377,7 +352,7 @@ int main()
     
 <hr>
 <div class="blogroll sidebar-item">
-  <p><i class="fas fa-link"></i> 友情链接</p>
+  <p><i class="fas fa-link"></i> Blogroll</p>
   <ul>
     
     <li><a href="https://developer.mozilla.org/" target="_blank">MDN</a></li>
@@ -430,7 +405,7 @@ int main()
           
         </div>
         <div class="powered-by">
-          由 <a href="https://hexo.io/" target="_blank">Hexo</a> 强力驱动 | 主题 <a href="https://github.com/AlynxZhou/hexo-theme-aria/" target="_blank">ARIA</a>
+          Proudly Powered by <a href="https://hexo.io/" target="_blank">Hexo</a> | Theme is <a href="https://github.com/AlynxZhou/hexo-theme-aria/" target="_blank">ARIA</a>
         </div>
       </div>
     </div>
