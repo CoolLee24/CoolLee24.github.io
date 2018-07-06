@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-06-08T17:28:36.174Z</updated>
+  <updated>2018-07-06T16:27:40.083Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>my new post01</title>
+    <link href="http://yoursite.com/my-new-post01/"/>
+    <id>http://yoursite.com/my-new-post01/</id>
+    <published>2018-07-06T16:10:11.000Z</published>
+    <updated>2018-07-06T16:27:40.083Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;指针&quot;&gt;&lt;a href=&quot;#指针&quot; class=&quot;headerlink&quot; title=&quot;指针&quot;&gt;&lt;/a&gt;指针&lt;/h2&gt;&lt;h3 id=&quot;第一节-什么是指针&quot;&gt;&lt;a href=&quot;#第一节-什么是指针&quot; class=&quot;headerlink&quot; title=&quot;第一节 什么是
+      
+    
+    </summary>
+    
+    
+      <category term="读书笔记" scheme="http://yoursite.com/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
   
   <entry>
     <title>Atom Debug及中文界面</title>
@@ -43,13 +64,13 @@
     <link href="http://yoursite.com/My-new-post/"/>
     <id>http://yoursite.com/My-new-post/</id>
     <published>2018-06-07T16:14:50.000Z</published>
-    <updated>2018-06-08T16:29:26.457Z</updated>
+    <updated>2018-07-06T16:34:30.649Z</updated>
     
     <summary type="html">
     
       
       
-        &lt;h2 id=&quot;读书博客的第一篇前言&quot;&gt;&lt;a href=&quot;#读书博客的第一篇前言&quot; class=&quot;headerlink&quot; title=&quot;读书博客的第一篇前言&quot;&gt;&lt;/a&gt;读书博客的第一篇前言&lt;/h2&gt;&lt;h3 id=&quot;1-作为程序员-我很开心&quot;&gt;&lt;a href=&quot;#1-作为程序员-我
+        &lt;h2 id=&quot;读书博客的第一篇前言&quot;&gt;&lt;a href=&quot;#读书博客的第一篇前言&quot; class=&quot;headerlink&quot; title=&quot;读书博客的第一篇前言&quot;&gt;&lt;/a&gt;读书博客的第一篇前言&lt;/h2&gt;&lt;h3 id=&quot;作为程序员-我很开心&quot;&gt;&lt;a href=&quot;#作为程序员-我很开心&quot;
       
     
     </summary>
