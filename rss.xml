@@ -1,62 +1,71 @@
 <?xml version="1.0"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
-    <id>http://yoursite.com</id>
-    <title>李惠帅</title>
-    <subtitle>This is my blog</subtitle>
-    <icon>http://yoursite.com/images/favicon.ico</icon>
-    <link href="http://yoursite.com" />
-    <author>
-      <name>Henry Lee</name>
-    </author>
-    <updated>2021-10-04T02:20:48.000Z</updated>
-    <category term="关键词1" />
-    <category term="关键词2" />
-    <entry>
-        <id>http://yoursite.com/philosophy/modern-philosophy/thought-notes/introduction/</id>
-        <title>导言 近现代哲学存在的意义</title>
-        <link rel="alternate" href="http://yoursite.com/philosophy/modern-philosophy/thought-notes/introduction/"/>
-        <content type="html"></content>
-        <category term="哲学" scheme="http://yoursite.com/categories/philosophy/" />
-        <category term="近现代哲学" scheme="http://yoursite.com/categories/philosophy/modern-philosophy/" />
-        <category term="西方现代思想讲义" scheme="http://yoursite.com/categories/philosophy/modern-philosophy/thought-notes/" />
-        <category term="近现代" scheme="http://yoursite.com/tags/%E8%BF%91%E7%8E%B0%E4%BB%A3/" />
-        <category term="哲学" scheme="http://yoursite.com/tags/%E5%93%B2%E5%AD%A6/" />
-        <category term="读书笔记" scheme="http://yoursite.com/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/" />
-        <updated>2021-10-04T02:20:48.000Z</updated>
-    </entry>
-    <entry>
-        <id>http://yoursite.com/literature/ancient-literature/al-introduction/lesson1/</id>
-        <title>导论 中国古典文学组成</title>
-        <link rel="alternate" href="http://yoursite.com/literature/ancient-literature/al-introduction/lesson1/"/>
-        <content type="html">&lt;h1 id=&#34;中国古典文学组成&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#中国古典文学组成&#34;&gt;#&lt;/a&gt; 中国古典文学组成&lt;/h1&gt;
-</content>
-        <category term="文学" scheme="http://yoursite.com/categories/literature/" />
-        <category term="古典文学" scheme="http://yoursite.com/categories/literature/ancient-literature/" />
-        <category term="中国古典文学概论" scheme="http://yoursite.com/categories/literature/ancient-literature/al-introduction/" />
-        <category term="中国" scheme="http://yoursite.com/tags/%E4%B8%AD%E5%9B%BD/" />
-        <category term="古典文学" scheme="http://yoursite.com/tags/%E5%8F%A4%E5%85%B8%E6%96%87%E5%AD%A6/" />
-        <category term="文学史" scheme="http://yoursite.com/tags/%E6%96%87%E5%AD%A6%E5%8F%B2/" />
-        <updated>2021-10-02T02:20:48.000Z</updated>
-    </entry>
-    <entry>
-        <id>http://yoursite.com/literature/modern-literature/chinese-homl/lesson1/</id>
-        <title>第01课 现代小说起源</title>
-        <link rel="alternate" href="http://yoursite.com/literature/modern-literature/chinese-homl/lesson1/"/>
-        <content type="html">&lt;h1 id=&#34;现代小说起源&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#现代小说起源&#34;&gt;#&lt;/a&gt; 现代小说起源&lt;/h1&gt;
-</content>
-        <category term="文学" scheme="http://yoursite.com/categories/literature/" />
-        <category term="现代文学" scheme="http://yoursite.com/categories/literature/modern-literature/" />
-        <category term="中国近现代文学史" scheme="http://yoursite.com/categories/literature/modern-literature/chinese-homl/" />
-        <category term="中国" scheme="http://yoursite.com/tags/%E4%B8%AD%E5%9B%BD/" />
-        <category term="文学史" scheme="http://yoursite.com/tags/%E6%96%87%E5%AD%A6%E5%8F%B2/" />
-        <category term="近现代" scheme="http://yoursite.com/tags/%E8%BF%91%E7%8E%B0%E4%BB%A3/" />
-        <updated>2021-10-02T02:20:48.000Z</updated>
-    </entry>
-    <entry>
-        <id>http://yoursite.com/computer-science/program-language/c/lesson-2/</id>
-        <title>第02课 C语言基本语法</title>
-        <link rel="alternate" href="http://yoursite.com/computer-science/program-language/c/lesson-2/"/>
-        <content type="html">&lt;h1 id=&#34;c-语言基本语法&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#c-语言基本语法&#34;&gt;#&lt;/a&gt; C 语言基本语法&lt;/h1&gt;
+<rss version="2.0">
+    <channel>
+        <title>李惠帅</title>
+        <subtitle>This is my blog</subtitle>
+        <icon>http://yoursite.com/images/favicon.ico</icon>
+        <link>http://yoursite.com</link>
+        <author>
+          <name>Henry Lee</name>
+        </author>
+        <description>欢迎你来</description>
+        <language>zh-CN</language>
+        <pubDate>Mon, 04 Oct 2021 10:20:48 +0800</pubDate>
+        <lastBuildDate>Mon, 04 Oct 2021 10:20:48 +0800</lastBuildDate>
+        <category term="关键词1" />
+        <category term="关键词2" />
+        <item>
+            <guid isPermalink="true">http://yoursite.com/philosophy/modern-philosophy/thought-notes/introduction/</guid>
+            <title>导言 近现代哲学存在的意义</title>
+            <link>http://yoursite.com/philosophy/modern-philosophy/thought-notes/introduction/</link>
+            <category term="哲学" scheme="http://yoursite.com/categories/philosophy/" />
+            <category term="近现代哲学" scheme="http://yoursite.com/categories/philosophy/modern-philosophy/" />
+            <category term="西方现代思想讲义" scheme="http://yoursite.com/categories/philosophy/modern-philosophy/thought-notes/" />
+            <category term="近现代" scheme="http://yoursite.com/tags/%E8%BF%91%E7%8E%B0%E4%BB%A3/" />
+            <category term="哲学" scheme="http://yoursite.com/tags/%E5%93%B2%E5%AD%A6/" />
+            <category term="读书笔记" scheme="http://yoursite.com/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/" />
+            <pubDate>Mon, 04 Oct 2021 10:20:48 +0800</pubDate>
+            <description><![CDATA[  ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">http://yoursite.com/literature/ancient-literature/al-introduction/lesson1/</guid>
+            <title>导论 中国古典文学组成</title>
+            <link>http://yoursite.com/literature/ancient-literature/al-introduction/lesson1/</link>
+            <category term="文学" scheme="http://yoursite.com/categories/literature/" />
+            <category term="古典文学" scheme="http://yoursite.com/categories/literature/ancient-literature/" />
+            <category term="中国古典文学概论" scheme="http://yoursite.com/categories/literature/ancient-literature/al-introduction/" />
+            <category term="中国" scheme="http://yoursite.com/tags/%E4%B8%AD%E5%9B%BD/" />
+            <category term="古典文学" scheme="http://yoursite.com/tags/%E5%8F%A4%E5%85%B8%E6%96%87%E5%AD%A6/" />
+            <category term="文学史" scheme="http://yoursite.com/tags/%E6%96%87%E5%AD%A6%E5%8F%B2/" />
+            <pubDate>Sat, 02 Oct 2021 10:20:48 +0800</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;中国古典文学组成&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#中国古典文学组成&#34;&gt;#&lt;/a&gt; 中国古典文学组成&lt;/h1&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">http://yoursite.com/literature/modern-literature/chinese-homl/lesson1/</guid>
+            <title>第01课 现代小说起源</title>
+            <link>http://yoursite.com/literature/modern-literature/chinese-homl/lesson1/</link>
+            <category term="文学" scheme="http://yoursite.com/categories/literature/" />
+            <category term="现代文学" scheme="http://yoursite.com/categories/literature/modern-literature/" />
+            <category term="中国近现代文学史" scheme="http://yoursite.com/categories/literature/modern-literature/chinese-homl/" />
+            <category term="中国" scheme="http://yoursite.com/tags/%E4%B8%AD%E5%9B%BD/" />
+            <category term="文学史" scheme="http://yoursite.com/tags/%E6%96%87%E5%AD%A6%E5%8F%B2/" />
+            <category term="近现代" scheme="http://yoursite.com/tags/%E8%BF%91%E7%8E%B0%E4%BB%A3/" />
+            <pubDate>Sat, 02 Oct 2021 10:20:48 +0800</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;现代小说起源&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#现代小说起源&#34;&gt;#&lt;/a&gt; 现代小说起源&lt;/h1&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">http://yoursite.com/computer-science/program-language/c/lesson-2/</guid>
+            <title>第02课 C语言基本语法</title>
+            <link>http://yoursite.com/computer-science/program-language/c/lesson-2/</link>
+            <category term="计算机科学" scheme="http://yoursite.com/categories/computer-science/" />
+            <category term="编程语言" scheme="http://yoursite.com/categories/computer-science/program-language/" />
+            <category term="C语言程序设计-阮一峰" scheme="http://yoursite.com/categories/computer-science/program-language/c/" />
+            <category term="C语言" scheme="http://yoursite.com/tags/C%E8%AF%AD%E8%A8%80/" />
+            <category term="教程" scheme="http://yoursite.com/tags/%E6%95%99%E7%A8%8B/" />
+            <pubDate>Fri, 01 Oct 2021 21:20:48 +0800</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;c-语言基本语法&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#c-语言基本语法&#34;&gt;#&lt;/a&gt; C 语言基本语法&lt;/h1&gt;
 &lt;h2 id=&#34;语句&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#语句&#34;&gt;#&lt;/a&gt; 语句&lt;/h2&gt;
 &lt;p&gt;C 语言的代码由一行行语句（statement）组成。语句就是程序执行的一个操作命令。C 语言规定，语句必须使用分号结尾，除非有明确规定可以不写分号。&lt;/p&gt;
 &lt;figure class=&#34;highlight c&#34;&gt;&lt;figcaption data-lang=&#34;c&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; x &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;上面就是一个变量声明语句，声明整数变量 &lt;code&gt;x&lt;/code&gt; ，并且将值设为 &lt;code&gt;1&lt;/code&gt; 。&lt;/p&gt;
@@ -181,19 +190,19 @@
 &lt;p&gt;不同的功能定义在不同的文件里面，这些文件统称为 “头文件”（header file）。如果系统自带某一个功能，就一定还会自带描述这个功能的头文件，比如 &lt;code&gt;printf()&lt;/code&gt;  的头文件就是系统自带的 &lt;code&gt;stdio.h&lt;/code&gt; 。头文件的后缀通常是 &lt;code&gt;.h&lt;/code&gt; 。&lt;/p&gt;
 &lt;p&gt;如果要使用某个功能，就必须先加载对应的头文件，加载使用的是 &lt;code&gt;#include&lt;/code&gt;  命令。这就是为什么使用 &lt;code&gt;printf()&lt;/code&gt;  之前，必须先加载 &lt;code&gt;stdio.h&lt;/code&gt;  的原因。&lt;/p&gt;
 &lt;figure class=&#34;highlight c&#34;&gt;&lt;figcaption data-lang=&#34;c&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token macro property&#34;&gt;&lt;span class=&#34;token directive-hash&#34;&gt;#&lt;/span&gt;&lt;span class=&#34;token directive keyword&#34;&gt;include&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&amp;lt;stdio.h&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;注意，加载头文件的 &lt;code&gt;#include&lt;/code&gt;  语句不需要分号结尾，详见《预处理器》一章。&lt;/p&gt;
-</content>
-        <category term="计算机科学" scheme="http://yoursite.com/categories/computer-science/" />
-        <category term="编程语言" scheme="http://yoursite.com/categories/computer-science/program-language/" />
-        <category term="C语言程序设计-阮一峰" scheme="http://yoursite.com/categories/computer-science/program-language/c/" />
-        <category term="C语言" scheme="http://yoursite.com/tags/C%E8%AF%AD%E8%A8%80/" />
-        <category term="教程" scheme="http://yoursite.com/tags/%E6%95%99%E7%A8%8B/" />
-        <updated>2021-10-01T13:20:48.000Z</updated>
-    </entry>
-    <entry>
-        <id>http://yoursite.com/computer-science/program-language/c/lesson-1/</id>
-        <title>第01课 C语言概述</title>
-        <link rel="alternate" href="http://yoursite.com/computer-science/program-language/c/lesson-1/"/>
-        <content type="html">&lt;h1 id=&#34;c-语言简介&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#c-语言简介&#34;&gt;#&lt;/a&gt; C 语言简介&lt;/h1&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">http://yoursite.com/computer-science/program-language/c/lesson-1/</guid>
+            <title>第01课 C语言概述</title>
+            <link>http://yoursite.com/computer-science/program-language/c/lesson-1/</link>
+            <category term="计算机科学" scheme="http://yoursite.com/categories/computer-science/" />
+            <category term="编程语言" scheme="http://yoursite.com/categories/computer-science/program-language/" />
+            <category term="C语言程序设计-阮一峰" scheme="http://yoursite.com/categories/computer-science/program-language/c/" />
+            <category term="C语言" scheme="http://yoursite.com/tags/C%E8%AF%AD%E8%A8%80/" />
+            <category term="教程" scheme="http://yoursite.com/tags/%E6%95%99%E7%A8%8B/" />
+            <pubDate>Fri, 01 Oct 2021 20:46:48 +0800</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;c-语言简介&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#c-语言简介&#34;&gt;#&lt;/a&gt; C 语言简介&lt;/h1&gt;
 &lt;h2 id=&#34;历史&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#历史&#34;&gt;#&lt;/a&gt; 历史&lt;/h2&gt;
 &lt;p&gt;C 语言最初是作为 Unix 系统的开发工具而发明的。&lt;/p&gt;
 &lt;p&gt;1969 年，美国贝尔实验室的肯・汤普森（Ken Thompson）与丹尼斯・里奇（Dennis Ritchie）一起开发了 Unix 操作系统。Unix 是用汇编语言写的，无法移植到其他计算机，他们决定使用高级语言重写。但是，当时的高级语言无法满足他们的要求，汤普森就在 BCPL 语言的基础上发明了 B 语言。&lt;/p&gt;
@@ -253,20 +262,15 @@
 &lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;$ gcc -o hello hello.c&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;上面命令的 &lt;code&gt;-o hello&lt;/code&gt;  指定，编译产物的文件名为 &lt;code&gt;hello&lt;/code&gt; （取代 &lt;code&gt;a.out&lt;/code&gt; ）。编译后就会生成一个名叫 &lt;code&gt;hello&lt;/code&gt;  的可执行文件，相当于为 &lt;code&gt;a.out&lt;/code&gt;  指定了名称。执行该文件，也会得到同样的结果。&lt;/p&gt;
 &lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;$ ./hello&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;Hello World&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;GCC 的 &lt;code&gt;-std=&lt;/code&gt;  参数还可以指定按照哪个 C 语言的标准进行编译。&lt;/p&gt;
 &lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;$ gcc -std&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;c99 hello.c&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;上面命令指定按照 C99 标准进行编译。&lt;/p&gt;
-</content>
-        <category term="计算机科学" scheme="http://yoursite.com/categories/computer-science/" />
-        <category term="编程语言" scheme="http://yoursite.com/categories/computer-science/program-language/" />
-        <category term="C语言程序设计-阮一峰" scheme="http://yoursite.com/categories/computer-science/program-language/c/" />
-        <category term="C语言" scheme="http://yoursite.com/tags/C%E8%AF%AD%E8%A8%80/" />
-        <category term="教程" scheme="http://yoursite.com/tags/%E6%95%99%E7%A8%8B/" />
-        <updated>2021-10-01T12:46:48.000Z</updated>
-    </entry>
-    <entry>
-        <id>http://yoursite.com/hello-world/</id>
-        <title>你来，我很高兴</title>
-        <link rel="alternate" href="http://yoursite.com/hello-world/"/>
-        <content type="html"></content>
-        <category term="随笔" scheme="http://yoursite.com/tags/%E9%9A%8F%E7%AC%94/" />
-        <updated>2021-08-08T12:46:30.000Z</updated>
-    </entry>
-</feed>
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">http://yoursite.com/hello-world/</guid>
+            <title>你来，我很高兴</title>
+            <link>http://yoursite.com/hello-world/</link>
+            <category term="随笔" scheme="http://yoursite.com/tags/%E9%9A%8F%E7%AC%94/" />
+            <pubDate>Sun, 08 Aug 2021 20:46:30 +0800</pubDate>
+            <description><![CDATA[  ]]></description>
+        </item>
+    </channel>
+</rss>
